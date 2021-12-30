@@ -91,7 +91,7 @@ const EditContact = ({ contacts, updateContact }) => {
                 <button type="submit" className="btn btn-primary">
                   Update Contact
                 </button>
-                <Button style={{ color: "white" }} onClick={() => history.push("/")}>Go Back</Button>
+                <Button style={{ color: "white" }} onClick={() => history.push("/")}><i className="fas fa-undo-alt"></i> Go Back</Button>
               </div>
               
             </form>

@@ -29,10 +29,10 @@ const Home = ({ contacts, deleteContact }) => {
                     <td>{contact.phone}</td>
                     <td>
                       <Link to={`/editcontact/${contact.id}`} className="btn btn-sm btn-primary mr-1 m-1">
-                        Edit
+                      <i className="fas fa-edit"></i> Edit
                       </Link>
-                      <Button type="button" onClick={() => deleteContact(contact.id)} className="btn-sm m-1" style={{background:"red"}}>
-                        Delete
+                      <Button type="button" onClick={() => deleteContact(contact.id)} className="btn-sm m-1 border-0" style={{background:"red"}}>
+                      <i className="fas fa-trash-alt"></i> Delete
                       </Button>
                     </td>
                   </tr>

@@ -76,15 +76,19 @@ const AddContact = ({ contacts, addContact }) => {
               />
             </div>
             <div className="d-flex align-items-center justify-content-between">
+              
 
               <div className="form-group">
-                <input
+                <Button type="submit" className="btn-primary my-2"><i className="fas fa-save"></i> Save Contact</Button>
+                
+                {/* <input
+                {<i class="fas fa-save"></i>}
                   className="btn btn-inline btn-primary my-2"
                   type="submit"
                   value="Save Contact"
-                />
+                /> */}
               </div>
-              <Button style={{ color: "white" }} onClick={() => history.push("/")}>Go Back</Button>
+              <Button style={{ color: "white" }} onClick={() => history.push("/")}><i className="fas fa-undo-alt"></i> Go Back</Button>
             </div>
           </form>
         </div>

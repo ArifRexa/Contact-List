@@ -9,8 +9,8 @@ const Header = () => {
                 <Container>
                     <Navbar.Brand as={Link} to="/home">CONTACTS</Navbar.Brand>
                     <Nav className="ms-auto">
-                        <Nav.Link as={Link} style={{color:"white"}} to="/">HOME</Nav.Link>
-                        <Nav.Link as={Link} style={{color:"white"}} to="/addcontact">ADD</Nav.Link>
+                        <Nav.Link as={Link} style={{color:"white"}} to="/"><i className="fas fa-home"></i> HOME</Nav.Link>
+                        <Nav.Link as={Link} style={{color:"white"}} to="/addcontact"><i className="fas fa-address-book"></i> ADD</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
